@@ -18,7 +18,21 @@
 			<artifactId>hibernate-core</artifactId>
 			<version>5.4.28.Final</version>
 		</dependency>
-	</dependencies>
 
+		<!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<version>1.4.200</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/net.sourceforge.javydreamercsw/H2-Driver -->
+		<dependency>
+			<groupId>net.sourceforge.javydreamercsw</groupId>
+			<artifactId>H2-Driver</artifactId>
+			<version>0.1</version>
+		</dependency>
+
+	</dependencies>
 
 </project>
